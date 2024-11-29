@@ -1,4 +1,5 @@
 clang -O3 c/code.c -o c/code
+dotnet build --configuration Release csharp/code.csproj
 go build -ldflags "-s -w" -o go/code go/code.go
 javac jvm/code.java
 RUSTFLAGS="-Zlocation-detail=none" cargo +nightly build --manifest-path rust/Cargo.toml --release

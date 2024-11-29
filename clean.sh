@@ -1,4 +1,6 @@
 rm c/code
+rm -Rf csharp/bin
+rm -Rf csharp/obj
 rm go/code
 rm jvm/code.class
 rm -r rust/target
@@ -11,3 +13,4 @@ rm fortran/code
 rm zig/code
 rm lua/code
 rm -f swift/code
+
